@@ -30,12 +30,27 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(number){
   var array = []
+<<<<<<< HEAD
 
 
   do{
     number++
     array.push(`I love the Beatles!`);
   } while(number < 15);
+=======
+  var i = 0;
+
+  do{
+    i++
+    array.push(`I love the Beatles!`);
+  } while(i < 15){
+    if(i === 17){
+      break;
+    } else if(i>7){
+      array.push(`I love the Beatles!`);
+    }
+  }
+>>>>>>> f3ed2bf8ef8f8ab6003d3ab04f5f7ddc177e51d1
 
   return array;
 }
